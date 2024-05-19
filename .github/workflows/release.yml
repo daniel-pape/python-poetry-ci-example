@@ -15,6 +15,12 @@ jobs:
 #          fetch-depth: 0
 #          token: ${{ secrets.PYTHON_POETRY_CI_EXAMPLE_GITHUB_TOKEN }}
 
+      - name: List Git Tags (Sorted by Date)
+        run: |
+          echo "Available Git Tags (Sorted by Date):"
+          git for-each-ref --sort=creatordate --format '%(creatordate): %(refname:short)' refs/tags
+
+
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
@@ -41,6 +47,6 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "action@github.com"
-          poetry run semantic-release publish -D commit_author="github-actions <action@github.com>"
+          poetry run semantic-release publish
         env:
           GH_TOKEN: ${{secrets.PYTHON_POETRY_CI_EXAMPLE_GITHUB_TOKEN}}
