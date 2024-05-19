@@ -9,6 +9,7 @@ packages = [{include = "math_utils", from="src"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 pytest = "^8.2.0"
+python-semantic-release = "^9.7.3"
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]
