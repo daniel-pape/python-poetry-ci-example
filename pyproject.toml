@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "p"
+version = "0.1.0"
+description = ""
+authors = ["Daniel Pape"]
+readme = "README.md"
+packages = [{include = "math_utils", from="src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^8.2.0"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
