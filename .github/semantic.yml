@@ -1,0 +1,11 @@
+# Enable/disable creation of status checks
+enabled: true # default: true
+# Validate the PR title, and ignore all commit messages
+titleOnly: false # default: false
+# Validate all commit messages, and ignore the PR title
+commitsOnly: true # default: false
+# Validate the PR title and all commit messages
+titleAndCommits: false # default: false
+# If commitsOnly or titleAndCommits is set to true, then only a single commit needs to pass validation instead of every commit
+# If neither of those options are set to true then this option is ignored
+anyCommit: false # default: false
