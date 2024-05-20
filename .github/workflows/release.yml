@@ -50,6 +50,12 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "action@github.com"
 
+      - name: Run Semantic Version
+        run: |
+          poetry run semantic-release version
+        env:
+          GH_TOKEN: ${{ secrets.PYTHON_POETRY_CI_EXAMPLE_GITHUB_TOKEN }}
+
       - name: Run Semantic Release
         run: |
           poetry run semantic-release -vv publish
