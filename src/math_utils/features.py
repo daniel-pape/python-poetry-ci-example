@@ -23,4 +23,7 @@ def feature_8():
     print("fix for feature 8")
     pass
 
+def feature_9():
+    pass
+
 
