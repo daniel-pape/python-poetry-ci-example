@@ -13,3 +13,6 @@ def feature_4():
 def feature_5():
     pass
 
+def feature_6():
+    pass
+
