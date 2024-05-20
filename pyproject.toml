@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "p"
-version = "0.1.0"
+version = "v0.1.1"
 description = ""
 authors = ["Daniel Pape"]
 readme = "README.md"
@@ -13,6 +13,22 @@ python-semantic-release = "^9.7.3"
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]
+
+[tool.semantic_release]
+version_variable = [
+    "src/math_utils/__init__.py:__version__"
+]
+version_toml = [
+    "pyproject.toml:tool.poetry.version"
+]
+version_pattern = [
+    "README.md:rev: v{version}",
+]
+tag_format = "v{version}"
+
+branch = "main"
+build_command = "poetry build"
+upload_to_pypi = false
 
 [build-system]
 requires = ["poetry-core"]
