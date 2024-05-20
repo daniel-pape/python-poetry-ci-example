@@ -42,6 +42,13 @@ jobs:
           python -m poetry install
           poetry config virtualenvs.create false
           poetry install
+      - name: Semantic Version (No Operation)
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "action@github.com"
+          poetry run semantic-release --noop version
+        env:
+          GH_TOKEN: ${{ secrets.PYTHON_POETRY_CI_EXAMPLE_GITHUB_TOKEN }}
       - name: Semantic Release (No Operation)
         run: |
           git config --global user.name "github-actions"
