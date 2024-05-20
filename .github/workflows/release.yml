@@ -56,7 +56,14 @@ jobs:
           poetry run semantic-release --noop publish
         env:
           GH_TOKEN: ${{ secrets.PYTHON_POETRY_CI_EXAMPLE_GITHUB_TOKEN }}
-      - name: Python Semantic Release
+      - name: Semantic Version
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "action@github.com"
+          poetry run semantic-release --noop version
+        env:
+          GH_TOKEN: ${{ secrets.PYTHON_POETRY_CI_EXAMPLE_GITHUB_TOKEN }}
+      - name: Semantic Release
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "action@github.com"
