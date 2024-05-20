@@ -2,6 +2,25 @@
 
 
 
+## v0.5.1 (2024-05-20)
+
+### Chore
+
+* chore: run semantic version ([`20951f6`](https://github.com/daniel-pape/python-poetry-ci-example/commit/20951f6bc90f36d7f938022756c58a29252e1a94))
+
+* chore: enable debugging with -vv ([`77c0462`](https://github.com/daniel-pape/python-poetry-ci-example/commit/77c0462a861552affe36200a7fec1729b13fcff1))
+
+### Fix
+
+* fix: fix for feature 8 ([`da9f60e`](https://github.com/daniel-pape/python-poetry-ci-example/commit/da9f60ee200e29b48270edcd9a69f95a6b1d6802))
+
+### Unknown
+
+* BREAKING: breaking change 4 ([`f0341d5`](https://github.com/daniel-pape/python-poetry-ci-example/commit/f0341d50128b8df2ff3f19fd50a7adbdb825e46a))
+
+* feature: feature 8 ([`bc1e565`](https://github.com/daniel-pape/python-poetry-ci-example/commit/bc1e5651842d788eae523fddd243682c4a5eff1f))
+
+
 ## v0.5.0 (2024-05-20)
 
 ### Chore
