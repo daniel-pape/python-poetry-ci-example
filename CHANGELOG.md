@@ -2,6 +2,13 @@
 
 
 
+## v0.4.0 (2024-05-20)
+
+### Feature
+
+* feat: feature 4 ([`01694fa`](https://github.com/daniel-pape/python-poetry-ci-example/commit/01694fafe45a31044f4375b9a58f014dc7fa5284))
+
+
 ## v0.3.0 (2024-05-20)
 
 ### Feature
