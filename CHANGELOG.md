@@ -2,6 +2,23 @@
 
 
 
+## v0.5.0 (2024-05-20)
+
+### Chore
+
+* chore: update release workflow file ([`065ca78`](https://github.com/daniel-pape/python-poetry-ci-example/commit/065ca78fe483741fb9599e60885fe0bae8321d6a))
+
+* chore: run semantic version before publish ([`dc6b1e4`](https://github.com/daniel-pape/python-poetry-ci-example/commit/dc6b1e4ddf36ca11826e5b54a3df5de794cb5bd0))
+
+### Feature
+
+* feat: feature 7 ([`740af64`](https://github.com/daniel-pape/python-poetry-ci-example/commit/740af645285c4dbb031812500915b0fd5bef82e6))
+
+* feat: feature 6 ([`b912243`](https://github.com/daniel-pape/python-poetry-ci-example/commit/b9122430497432e9447b69e321cb5fe50c4e7459))
+
+* feat: feature 5 ([`3db78a0`](https://github.com/daniel-pape/python-poetry-ci-example/commit/3db78a0514b47dc793d84233fb41bdec93e9ea0f))
+
+
 ## v0.4.0 (2024-05-20)
 
 ### Feature
