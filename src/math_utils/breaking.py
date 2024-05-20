@@ -3,3 +3,6 @@ def breaking_change_1():
 
 def breaking_change_2():
     pass
+
+def breaking_change_3():
+    pass
