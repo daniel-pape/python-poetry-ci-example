@@ -3,3 +3,7 @@ def feature_1():
 
 def feature_2():
     pass
+
+def feature_3():
+    pass
+
