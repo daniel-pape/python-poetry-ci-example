@@ -2,6 +2,17 @@
 
 
 
+## v0.3.0 (2024-05-20)
+
+### Feature
+
+* feat: feature 3 ([`29e54f9`](https://github.com/daniel-pape/python-poetry-ci-example/commit/29e54f9147ae7166a5fceba8c383e2a980e338e1))
+
+### Unknown
+
+* BREAKING: breaking change 3 ([`7416a70`](https://github.com/daniel-pape/python-poetry-ci-example/commit/7416a707b0a24d86315a23887808e8b4dc12dd00))
+
+
 ## v0.2.0 (2024-05-20)
 
 ### Chore
