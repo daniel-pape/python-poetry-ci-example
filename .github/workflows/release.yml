@@ -52,7 +52,7 @@ jobs:
 
       - name: Run Semantic Release
         run: |
-          poetry run semantic-release publish
+          poetry run semantic-release -vv publish
         env:
           GH_TOKEN: ${{ secrets.PYTHON_POETRY_CI_EXAMPLE_GITHUB_TOKEN }}
 
