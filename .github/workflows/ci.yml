@@ -16,6 +16,9 @@ jobs:
       - name: Configure Poetry
         run: |
           python -m poetry config virtualenvs.in-project true
+      - name: View poetry version
+        run: |
+          poetry --version
       - name: Cache the virtualenv
         uses: actions/cache@v3
         with:
