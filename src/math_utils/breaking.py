@@ -9,3 +9,6 @@ def breaking_change_3():
 
 def breaking_change_4():
     pass
+
+def breaking_change_5():
+    pass
