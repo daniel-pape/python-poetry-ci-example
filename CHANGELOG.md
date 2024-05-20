@@ -2,6 +2,21 @@
 
 
 
+## v0.6.0 (2024-05-20)
+
+### Chore
+
+* chore: add write permissions to release workflow ([`2bb4934`](https://github.com/daniel-pape/python-poetry-ci-example/commit/2bb4934152b68ee35e28111e0ebe20c87b5695fd))
+
+### Feature
+
+* feat: feature 9 ([`3e1a102`](https://github.com/daniel-pape/python-poetry-ci-example/commit/3e1a10240dedb6a2c1d6fa7483dbd307d962cbfe))
+
+### Unknown
+
+* BREAKING CHANGE: breaking change 5 ([`1b5d3bd`](https://github.com/daniel-pape/python-poetry-ci-example/commit/1b5d3bd231c4e2567684fa942cbe4414e4939ccf))
+
+
 ## v0.5.1 (2024-05-20)
 
 ### Chore
