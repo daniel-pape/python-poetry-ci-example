@@ -42,6 +42,7 @@ semantic-release --noop publish
 * The release workflow needs permissions to write packages. This can be achieved either via
   * Settings > Actions > General > Workflow Permissions > Choose: Read and write permissions
   * Or by adding write permissions to the workflow as shown in the following snippet:
+  Also see this [SO post](https://stackoverflow.com/questions/72851548/permission-denied-to-github-actionsbot)
 
 ```bash
 jobs:
