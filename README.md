@@ -66,3 +66,6 @@ A further source is this blog post:
 
 This GitHub bot is used to enforce semantic PRs:
 * https://github.com/marketplace/semantic-prs
+
+Useful for debugging:
+https://python-semantic-release.readthedocs.io/en/latest/troubleshooting.html#increasing-verbosity
