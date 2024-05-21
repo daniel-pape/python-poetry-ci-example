@@ -2,6 +2,13 @@
 
 
 
+## v1.1.0 (2024-05-21)
+
+### Feature
+
+* feat: feature 10 ([`b436dbc`](https://github.com/daniel-pape/python-poetry-ci-example/commit/b436dbc822eee960cacfab0bc86943979a3c092d))
+
+
 ## v1.0.0 (2024-05-21)
 
 ### Breaking
