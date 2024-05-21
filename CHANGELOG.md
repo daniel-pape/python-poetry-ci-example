@@ -2,6 +2,23 @@
 
 
 
+## v1.0.0 (2024-05-21)
+
+### Breaking
+
+* feat!: breaking change 6
+
+BREAKING CHANGE: just another breaking change ([`8c83d1b`](https://github.com/daniel-pape/python-poetry-ci-example/commit/8c83d1b5edc5395c185fd9e6f4f11b83a4c64cbc))
+
+### Chore
+
+* chore: enforce conventional commits ([`d5ed07d`](https://github.com/daniel-pape/python-poetry-ci-example/commit/d5ed07d71fe4bff5aee96b4496d3623bac8ab375))
+
+### Documentation
+
+* docs: add documentation ([`e277225`](https://github.com/daniel-pape/python-poetry-ci-example/commit/e277225afe660ed1783d0cf152e0b79cd8d13e57))
+
+
 ## v0.6.0 (2024-05-20)
 
 ### Chore
