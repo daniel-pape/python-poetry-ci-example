@@ -1,6 +1,7 @@
 # python-poetry-ci-example
 
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+[![Actions status](https://github.com/daniel-pape/python-poetry-ci-example/workflows/CI/badge.svg)](https://github.com/daniel-pape/python-poetry-ci-example/actions)
 
 ## Overview 
 
