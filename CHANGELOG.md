@@ -2,6 +2,27 @@
 
 
 
+## v1.3.0 (2024-05-21)
+
+### Chore
+
+* chore: add ruff linter and formatter as hook ([`f3a4731`](https://github.com/daniel-pape/python-poetry-ci-example/commit/f3a47315282fc3cfa72803d6c33f31e945dc4069))
+
+* chore: format .py file with ruff ([`f49b673`](https://github.com/daniel-pape/python-poetry-ci-example/commit/f49b673206ef9e2a5e307281cac8fd6d498d2000))
+
+* chore: add ruff as dev dependency ([`83b11c8`](https://github.com/daniel-pape/python-poetry-ci-example/commit/83b11c8617dd9b3a103c98235f8acc831f129091))
+
+### Documentation
+
+* docs: add link to SO about workflow permissions ([`87ac6e3`](https://github.com/daniel-pape/python-poetry-ci-example/commit/87ac6e3bac1f635d03ef4aa94f950085b3fc52c4))
+
+* docs: add link on increasing verbosity ([`06526dd`](https://github.com/daniel-pape/python-poetry-ci-example/commit/06526dd52704fd495b908b45fb28228bb1bada93))
+
+### Feature
+
+* feat: feature 12 ([`55b76c3`](https://github.com/daniel-pape/python-poetry-ci-example/commit/55b76c3969b499a8a5789bda15e6a5e01a79cae7))
+
+
 ## v1.2.0 (2024-05-21)
 
 ### Feature
