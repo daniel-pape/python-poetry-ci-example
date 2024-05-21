@@ -2,6 +2,15 @@
 
 
 
+## v1.2.0 (2024-05-21)
+
+### Feature
+
+* feat: feature 11 (#1)
+
+Co-authored-by: Daniel Pape &lt;&gt; ([`b1583ac`](https://github.com/daniel-pape/python-poetry-ci-example/commit/b1583ac6fa90ee21d4f94942703a8f4f6d0416e5))
+
+
 ## v1.1.0 (2024-05-21)
 
 ### Feature
